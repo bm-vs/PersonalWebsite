@@ -1,0 +1,24 @@
+#sitemap-body {
+	padding: 0 15px 15px 15px;
+}
+
+h1, .sitemap-content {
+	margin-left: 10px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.sitemap-content p {
+	margin: 4px 0px 4px 15px;
+}
+
+.sitemap-content a {
+	font-size: 20px;
+	color: #222;
+}
+
+.sitemap-content a:hover {
+	text-decoration: underline !important;
+}

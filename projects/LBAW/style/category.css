@@ -1,0 +1,91 @@
+h1, h2 {
+	margin-left: 10px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+.view-more {
+	font-size: 14px;
+	color: #222;
+	vertical-align: middle;
+}
+
+.items-display {
+	margin: 0 5px 20px 0px;
+	overflow: hidden;
+}
+
+.product-info-container .name a{
+	font-size: 16px;
+}
+
+.product-info-container a, .product-info-container .price {
+	color: #333;
+}
+
+.price {
+	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+	.items-display {
+		margin: 0 5px 0 5px;
+	}
+}
+
+/* Product Mosaic */
+.items-display > div {
+	height: 300px;
+	border: 10px solid white;
+	border-right: 0;
+	border-top: 0;
+	background: #f5f5f5;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+.product-image-container {
+	height: 155px;
+}
+
+.product-image-container img {
+	height: 100%;
+}
+
+.product-info-container {
+	height: 115px;
+	width: 100%;
+	display: table;
+}
+
+.product-info-container span{
+	display: block;
+}
+
+.product-info-container .price {
+	color: #333;
+	font-size: 20px;
+}
+
+.product-info-container img{
+	height: 14px;
+}
+
+.product-info-container > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.product-info-container .type-brand, .product-mosaic button, .product-mosaic .rating1{
+	display: none;
+}
+
+.product-image-container {
+	cursor: pointer;
+}
+
+.product-info-container .name {
+	cursor: pointer;
+}

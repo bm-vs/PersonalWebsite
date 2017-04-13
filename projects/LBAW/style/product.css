@@ -1,0 +1,212 @@
+/*===============================================================================*/
+/* Item display */
+
+.items-display {
+    margin: 0 5px 0 5px;
+}
+
+.items-display > div {
+    border: 5px solid white;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#product-image, #product-info {
+	min-height: 600px;
+}
+
+.product-image-container {
+    height: 385px;
+}
+
+.product-image-container img {
+    width: 270px;
+}
+
+.product-info-container {
+    height: 180px;
+    width: 100%;
+    display: table;
+}
+
+#editproduct {
+	width: 150px;
+	height: 50px;
+	float: right;
+	margin-right: 20px;
+}
+
+.product-info-container span{
+    display: block;
+}
+
+.product-info-container .name a{
+    color: #333;
+    font-size: 16px;
+}
+
+.product-info-container .price {
+    color: #333;
+    font-size: 20px;
+}
+
+.product-info-container img{
+    height: 14px;
+}
+
+.product-info-container > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-information-container{
+    margin-left: 20px;
+	margin-right: 20px;
+    height: 560px;
+    text-align: left;
+	margin-top: -15px;
+}
+
+@media (max-width: 767px) {
+	.product-information-container {
+		height: auto;
+	}
+}
+
+.progress{
+    width: 60%;
+	height: 30px;
+    background-color: #bebebe;
+    box-shadow: none;
+	border-radius: 0;
+	margin-top: 30px;
+}
+.progress-bar{
+    background-color: #c49f66;
+	box-shadow: none;
+	line-height: 30px;
+}
+
+.number{
+    width: 25%;
+}
+#quantity{
+    text-align: center;
+    min-width: 100px;
+}
+.price h2{
+    color:#e53935;
+}
+
+.product-buttons {
+	margin-top: 30px;
+}
+
+.product-buttons #add-to-cart {
+	background: #43a047 !important;
+}
+
+.product-buttons #add-to-cart:hover {
+	background: #2e7d32 !important;
+}
+
+.product-buttons #add-to-fav {
+	background: #e53935 !important;
+}
+
+.product-buttons #add-to-fav:hover {
+	background: #c62828 !important;
+}
+
+.item-verifications {
+	margin-top: 20px;
+}
+
+.item-verifications img{
+    height: 50px;
+    width: 75px;
+}
+
+.full-info-container > div {
+	margin-top: 40px;
+	
+}
+
+.full-info-container .nav {
+	border: 0;
+}
+
+.full-info-container .nav a {
+	color: #222;
+	border-radius: 0;
+	border: 0;
+}
+
+.full-info-container .nav a:hover {
+	background: #f5f5f5;
+	color: #222;
+	border: 0;
+}
+
+.full-info-container .nav li.active > a {
+	color: white;
+	background: #c49f66;
+}
+
+.full-info-container .tab-content {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.full-info-container .tab-content #description img {
+	width: 40px;
+}
+
+#description{
+    text-align: left;
+}
+hr{
+    border-top: 1px solid #ddd;
+}
+td{
+    width: 33%;
+}
+
+.table{
+    text-align: left;
+    width: 80%;
+}
+
+.media-object{
+    width: 100px;
+    height: 100px;
+}
+.answer-pic{
+    width: 50px;
+    height: 50px;
+}
+.star{
+    height: 14px;
+}
+
+#faq a {
+	border: 0;
+	background: #f5f5f5;
+}
+
+#faq p, #faq a{
+    text-align: left;
+    color: #222;
+	padding: 10px 15px 10px 15px;
+	border-radius: 0;
+}
+
+#customer-rv{
+    text-align: left;
+}
+
+.full-description button {
+	width: 150px;
+	height: 50px;
+}

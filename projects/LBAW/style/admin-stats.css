@@ -1,0 +1,28 @@
+/*.btn-xlarge {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    display:block;
+    margin:0 auto;
+    margin-bottom: 1em;
+}
+
+#add-product{
+    background: green !important;
+}
+#ban-user{
+    background: red !important;
+}
+*/
+.chartContainer-visitors{
+    height: 200px;
+    width: 100%;
+}
+
+.charts-container div{
+    margin-bottom: 10px;
+}

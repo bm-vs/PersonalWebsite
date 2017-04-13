@@ -1,0 +1,357 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
+}
+
+/* Navs */
+nav, nav div, nav li, nav ul {
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	border-width: 0 0 0 0 !important;
+}
+
+hr {
+	border-top-color: #ddd;
+}
+
+/* Search areas */
+.search {
+	margin-top: 5px;
+}
+
+.search, .search *{
+	vertical-align: middle;
+	border: 0;
+	height: 40px;
+	border-radius: 0px;
+}
+
+.search  input:focus {
+	border: 2px solid #c49f66 !important;
+	border-right: 0px !important;
+}
+
+.search button {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	width: 40px;
+}
+
+/* Buttons and inputs */
+input:focus, button:focus {
+	outline-style: none !important;
+	box-shadow: none !important;
+	border-color: transparent !important;
+}
+
+button {
+	background: #c49f66 !important;
+	color: white !important;
+	outline-style: none !important;
+	box-shadow: none !important;
+	border-color: transparent !important;
+	border-radius: 0px !important;
+}
+
+button:hover {
+	background: #b98d49 !important;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration:none !important;
+}
+
+.glyphicon {
+	font-size: 12px;
+}
+
+
+/*===============================================================================*/
+/* Custom Checkbox */
+
+.custom-checkbox {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+}
+
+.custom-checkbox input {
+	display: none;
+}
+
+.custom-checkbox label {
+	cursor: pointer;
+	width: 17px !important;
+	height: 17px !important;
+	background: #f6f6f6;
+	border: 1px solid #cccccc;
+	position: absolute;
+}
+
+.custom-checkbox label:after {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 4px;
+	left: 4px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.custom-checkbox input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+
+
+/* ===================================================== */
+/* Main nav */
+#main-nav, #search-nav {
+	background: #373d5b;
+}
+
+/* Logo/Menu */
+#logo {
+	height: 50px;
+	margin: 0 0 0 0;
+	padding-top: 4px;
+}
+
+#logo img {
+	height: 42px;
+}
+
+#logo > a {
+	color: white;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#menu {
+	height: 50px;
+}
+
+#menu > ul li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#menu .glyphicon {
+    font-size: 18px;
+	color: white;
+}
+
+/* Main nav small mobile fix */
+@media (max-width: 350px) {
+	#logo {
+		padding-left: 0;
+	}
+	
+	#menu a {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+
+/* ===================================================== */
+/* Secondary nav */
+
+#secondary-nav, #secondary-nav div {
+	text-align: center;
+	background: #494e6b;	
+}
+
+#secondary-nav .hidden-xs {
+	padding-top: 3px;
+}
+
+#secondary-nav ul {
+	display: inline-block;
+	float: none;
+}
+
+#secondary-nav a {
+	padding: 9px 15px 9px 15px;
+	color: white;
+}
+
+#secondary-nav li {
+	background: #494e6b;
+}
+
+#secondary-nav li a {
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+
+#secondary-nav li a:hover {
+	border-bottom: 3px solid #c49f66;
+}
+
+#secondary-nav .secondary-nav-dropdown{
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#secondary-nav .secondary-nav-dropdown ul {
+	padding: 0 0 5px 0;
+	width: 100%;
+}
+
+#secondary-nav .secondary-nav-dropdown li:last-child {
+	padding-bottom: 20px !important;
+}
+
+#secondary-nav .secondary-nav-dropdown .panel-heading {
+	padding: 15px 15px 15px 15px !important;
+}
+
+
+/* ===================================================== */
+/* Authentication modal */
+
+#authentication-modal .closebtn {
+	float: right;
+	color: #c49f66;
+	font-size: 36px;
+	cursor: pointer;	
+}
+
+#authentication-modal .closebtn:hover {
+	color: #b98d49;
+}
+
+#authentication-modal .modal-content {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+#authentication-modal .modal-header {
+	border: 0;
+	height: 50px;
+	padding: 12px 12px 0 12px;
+	background: white;
+}
+
+#authentication-modal .modal-header a:hover {
+	cursor: pointer;
+}
+
+#authentication-modal .modal-header .nav, .modal-header .nav li, .modal-header .nav li a {
+	height: 100%;
+	border: 0;
+	margin: 0;
+}
+
+#authentication-modal .modal-header .nav li a {
+	width: 100px;
+	text-align: center;
+}
+
+#authentication-modal .modal-header .closebtn {
+	line-height: 21px;
+	width: 21px;
+}
+
+#authentication-modal .modal-backdrop {
+	opacity:0.8 !important;
+}
+
+#authentication-modal .modal-header .nav a {
+	color: #222;
+	border-radius: 0;
+	border: 0;
+}
+
+#authentication-modal .modal-header .nav a:hover {
+	background: #f5f5f5;
+	color: #222;
+	border: 0;
+}
+
+#authentication-modal .modal-header .nav li.active > a {
+	color: white;
+	background: #c49f66;
+}
+
+#authentication-modal .modal-body {
+	background: white;
+}
+
+#authentication-modal .modal-body  ul{
+	border: 0;
+}
+
+#authentication-modal button, #authentication-modal input, #authentication-modal label {
+	height: 50px;
+	padding-right: 12px;
+	display: block;
+	border: 0;
+}
+
+#authentication-modal input, #authentication-modal label {
+	margin: 0px auto 0 auto;
+	width: 60%;
+}
+
+#authentication-modal button, #authentication-modal input {
+	padding-left: 12px;
+}
+
+#authentication-modal input {
+	border: 1px solid #ddd;
+}
+
+#authentication-modal input:focus {
+	border: 2px solid #c49f66 !important;
+}
+
+#authentication-modal label {
+	color: #222;
+	padding-top: 22px;
+	font-weight: normal;
+}
+	
+#authentication-modal button, #authentication-modal .authentication-input {
+	margin: 15px auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

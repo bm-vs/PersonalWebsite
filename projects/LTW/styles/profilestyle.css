@@ -1,0 +1,145 @@
+#myprofile {
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.img-col {
+    text-align: center;
+}
+
+.edit-col {
+    padding-right: 30px;
+}
+
+.edit-col i {
+    color: #8e8e8e;
+}
+
+.edit-col i:hover {
+    color: #a72230;
+    cursor: pointer;
+}
+
+#td-user {
+    text-align: left;
+}
+
+.td-icon {
+    text-align: center;
+    padding-right: 10px;
+    color: #8e8e8e;
+}
+
+.td-info {
+    text-align: left;
+    color: #8e8e8e;
+}
+
+#myprofile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.myrestaurants {
+    margin-bottom: 60px;
+}
+
+.central .myrestaurants> article:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.myreviews > article:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.replyprofile {
+    padding: 10px;
+}
+
+.myreplys > article:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.replyprofile table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.replyprofile table td {
+    padding: 10px;
+}
+
+.userimage img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userreviewid {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.replyrow {
+    border-top: 1px solid #e1e1e1;
+    background-color: #f3f3f3;
+}
+
+.restaurantphoto img{
+    height: 150px;
+}
+
+.replycontent {
+    vertical-align: top;
+}
+
+.textreview {
+    padding-bottom: 30px;
+}
+
+.review table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.review table td {
+    padding: 10px;
+}
+
+.reviewuserimage img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userreviewid {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.replyrow {
+    border-top: 1px solid #e1e1e1;
+    background-color: #f3f3f3;
+}
+
+.replycontent {
+    vertical-align: top;
+}
+
+.btnowner {
+    margin-top: 10px;
+    font-size: 12px;
+}
+

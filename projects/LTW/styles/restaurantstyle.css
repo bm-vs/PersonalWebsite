@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Kaushan';
+    src: url("../res/fonts/KaushanScript.otf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url("../res/fonts/CaviarDreams.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Caviar Dreams Bold';
+    src: url("../res/fonts/Caviar_Dreams_Bold.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Source Sans';
+    src: url("../res/fonts/SourceSansPro-Regular.otf"); /*URL to font*/
+}
+
+.restaurant {
+    margin-bottom: 60px;
+}
+
+.gmap3 {
+    padding-top: 10px;
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+}
+
+.restaurantdescription {
+    padding: 10px;
+}
+
+#open {
+    color: #096E09;
+}
+
+#close {
+    color: #cf2230;
+}
+
+.contentRestaurant #opentime, #price {
+    color: #333333;
+}
+
+.central .restaurantreview > article:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#price {
+    font-weight: bolder;
+}
+
+.central #price img {
+    height: 16px;
+}
+
+.restaurantgallery {
+    padding-top: 20px;
+}
+
+#addreviewphoto {
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+#restaurantbtns {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btnreview {
+    margin-right: 40px;
+}
+
+#btn-createreviewcancel {
+    display: none;
+}
+
+#createreviewbtn {
+    margin-bottom: 20px;
+}
+
+#addreview {
+    display: none;
+    margin-bottom: 10px;
+}
+
+#input-ativatereview {
+    max-width: 30%;
+    padding: 9px 12px;
+}
+
+.userimage {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.userimage img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ratingrestaurant {
+    display: inline-block;
+}
+
+.ratingrestaurant div {
+    display: inline-block;
+}
+
+.ratingrestaurant #text {
+    padding-left: 10px;
+}
+
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../res/images/starrating.png") 0 -16px;
+}
+
+textarea {
+    font-family: 'Source Sans';
+}
+
+.textreview {
+    padding-bottom: 30px;
+}
+
+.reply {
+    display: table;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.reply form {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.reply .replytext {
+    display: table-cell;
+    width: 80%;
+    padding: 9px 12px;
+}
+
+#submitreply {
+    padding-top: 10px;
+    display: table-cell;
+    float: right;
+    vertical-align: middle;
+}
+
+.review table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.review table td {
+    padding: 10px;
+}
+
+.reviewuserimage img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userreviewid {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.replyrow {
+    border-top: 1px solid #e1e1e1;
+    background-color: #f3f3f3;
+}
+
+.replycontent {
+    vertical-align: top;
+}
+
+.btnowner {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.bx-wrapper img {
+    height: 300px !important;
+    overflow: hidden;
+}
+
+.bx-wrapper, .bx-viewport {
+    height: 300px !important;
+    width: 596px! important;
+}

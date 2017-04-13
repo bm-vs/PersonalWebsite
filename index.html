@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bruno Santos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="lib/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="style/style.css">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/jquery/jquery-ui.js"></script>
+	<script src="scripts/scripts.js"></script>
+</head>
+<body>
+	<header id="nav">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav">
+					<li id="a-home" class="active"><a href="#home"><span>Home</span></a></li>
+					<li id="a-about"><a href="#about"><span>About</span></a></li>
+					<li id="a-projects"><a href="#projects"><span>Projects</span></a></li>
+					<li id="a-contact"><a href="#contact"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home">
+			<h1>
+				<span class="subtitle">Hey there, I'm</span>
+				<span class="title">Bruno Santos</span>
+			</h1>
+		</section>
+		
+		<section id="about">
+			<h2 class="sectiontitle">About</h2>
+			<img src="resources/me2.png" alt="me">
+			<div>
+				<p>My name is Bruno Santos and I'm 20 years old.
+				<p>I'm an Informatics Engineering student at <a href="https://www.fe.up.pt">FEUP</a>.</p>
+				<p>I like to solve problems, develop interesting projects, and explore and learn about different areas, from database modeling to user interface creation.</p>
+				<p>Besides software development, I also have an interest in geometry, physics, finance, among others things.</p>
+			</div>
+		</section>
+		<hr>
+		<section id="projects">
+			<h2 class="sectiontitle">Projects</h2>
+			<div>
+				<div>
+					<div class="project-image">
+						<div class="overlay">
+							<a href="https://github.com/BSantos22/LPOO2"><span class="fa fa-github"></span></a>
+						</div>
+						<img src="resources/casino.png" alt="lpoo">
+					</div>
+					<h4>Casino</h4>
+					<p>Game for Android that lets the user play blackjack, roulette and slots.</p>
+					<p>Developed using the <a href="https://libgdx.badlogicgames.com/index.html">libGDX</a> framework.</p>
+				</div>
+				<div>
+					<div class="project-image">
+						<div class="overlay">
+							<a href="https://github.com/BSantos22/LAIG3"><span class="fa fa-github"></span></a>
+						</div>
+						<img src="resources/cage.png" alt="laig">
+					</div>
+					<h4>Cage</h4>
+					<p>Implementation of the board game <a href="https://http://www.marksteeregames.com/Cage_rules.html">Cage</a> with a graphical interface using WebGL.</p>
+					<p>Uses the <a href="https://paginas.fe.up.pt/~ruirodrig/pub/sw/webcgf/docs/#">WebCGF</a> library developed at FEUP.</p>
+				</div>
+				<div>
+					<div class="project-image">
+						<div class="overlay">
+							<a href="https://github.com/MaggGomes/FEUP-LTW"><span class="fa fa-github"></span></a>
+							<a href="projects/LTW/index.php"><span class="fa fa-external-link"></span></a>
+						</div>
+						<img src="resources/myfoodadvisor.png" alt="ltw">
+					</div>
+					<h4>My Food Advisor</h4>
+					<p>Restaurant review website that allows users to search, view and rate establishments.</p>
+				</div>
+				<div>
+					<div class="project-image">
+						<div class="overlay">
+							<a href="https://github.com/JJPO96/eventLift"><span class="fa fa-github"></span></a>
+							<a href="https://devpost.com/software/eventlift-dz5c2e"><span class="fa fa-external-link"></span></a>
+						</div>
+						<img src="resources/eventlift.png" alt="hackupc">
+					</div>
+					<h4>EventLift</h4>
+					<p>Carpool manager that allows users to share car rides to specific events.</p>
+					<p>Project developed for the HackUPC Winter 2017 hackathon.</p>
+				</div>
+				<div>
+					<div class="project-image">
+						<div class="overlay">
+							<a href="https://github.com/BSantos22/personal-website"><span class="fa fa-github"></span></a>
+							<a href=""><span class="fa fa-external-link"></span></a>
+						</div>
+						<img src="resources/mywebsite.png" alt="this">
+					</div>
+					<h4>Personal website</h4>
+					<p>This website.</p>
+				</div>
+				<div>
+					<div class="project-image">
+						<div class="overlay">
+							<a href="https://github.com/Antonio-Melo/LBAW"><span class="fa fa-github"></span></a>
+							<a href="projects/LBAW/pages/home.php"><span class="fa fa-external-link"></span></a>
+						</div>
+						<img src="resources/bat.png" alt="lbaw">
+					</div>
+					<h4>.bat (in development)</h4>
+					<p>Online store that sells tech related items. Being developed this semester.</p>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section id="contact">
+			<h2 class="sectiontitle">Contact</h2>
+			<div>
+				<form action="actions/contact.php" method="post">
+					<label for="contact-name">Name:</label>
+					<input id="contact-name" name="contact-name" type="text" required>
+					<label for="contact-email">Email:</label>
+					<input id="contact-email" name="contact-email" type="text" required>
+					<label for="contact-subject">Subject:</label>
+					<input id="contact-subject" name="contact-subject" type="text" required>
+					<label for="contact-message">Message:</label>
+					<textarea id="contact-message" name="contact-message" rows="10" required></textarea>
+					<button class="input-submit" id="contact-submit" type="submit">Send</button>
+				</form>
+			</div>
+			<div id="social">
+				<a href="mailto:bruno.santos1996@gmail.com"><div id="email"><span class="fa fa-envelope"></span></div></a>
+				<a href="https://github.com/BSantos22"><div id="github"><span class="fa fa-github"></span></div></a>
+				<a href="https://www.linkedin.com/in/brunomvsantos/"><div id="linkedin"><span class="fa fa-linkedin"></span></div></a>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

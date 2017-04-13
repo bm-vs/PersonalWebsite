@@ -1,0 +1,53 @@
+footer {
+    background-color: #373d5b;
+    color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer div > div {
+	padding: 15px 15px 15px 15px;
+}
+
+/* Connect */
+footer input {
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	border-width: 0 0 0 0 !important;
+	max-width: 300px;
+}
+
+footer .input-group, footer .input-group > div {
+	padding: 0 0 0 0;
+}
+
+/* Social */
+footer .btn-instagram {
+	padding-left: 0;
+}
+footer .fa {
+	font-size: 15px;
+}
+
+#footer-social a:hover {
+	color: white;
+}
+
+/* Customer Service/About */
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#footer-about a:hover, #footer-about a:active, #footer-about a:visited,
+#footer-service a:hover, #footer-service a:active, #footer-service a:visited {
+    text-decoration: underline !important;
+	color: white;
+}
+
+#footer-connect input:focus {
+	border: 2px solid #c49f66 !important;
+	border-left: 0px !important;
+}

@@ -1,0 +1,94 @@
+#ban-users-container .btn-danger{
+    background: #e53935 !important;
+}
+
+#ban-users-container .btn-danger:hover{
+    background: #c62828 !important;
+}
+
+#ban-users-container .close{
+    color: #c49f66 !important;
+    background: none !important;
+	font-size: 36px;
+	opacity: 1;
+	font-weight: normal;
+}
+
+#ban-users-container .close:hover{
+    color: #b98d49 !important;
+}
+
+#ban-users-container .modal-body{
+    background: white!important;
+}
+
+#ban-users-container .modal-header{
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+}
+
+#ban-users-container h4 {
+	color: #222;
+}
+
+#ban-users-container .modal-content, #ban-users-container .modal-header {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+#ban-users-container input {
+	border: 1px solid #ddd;
+	border-radius: 0px;
+}
+
+#ban-users-container input:focus {
+	border: 1px solid #ddd !important;
+}
+
+/* Pagination */
+
+.pagination a {
+	border-radius: 0 !important;
+	color: #222 !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	color: white !important;
+	background: #c49f66;
+	border-color: #c49f66;
+}
+
+.pagination li:first-child a, .pagination li:last-child a {
+	color: #888 !important;
+}
+
+#ban-users-container .btn-xs {
+	height: 26px;
+	width: 26px;
+}
+
+#ban-users-container input[type=text] {
+	box-shadow: none;
+}
+
+#ban-users-container input[type=text]:focus {
+	border: 2px solid #c49f66 !important;
+	border-right: 0px !important;
+}
+
+#reports-button {
+	width: 150px;
+	float: right;
+}
+
+@media (max-width: 520px) {
+	#reports-button {
+		float: none;
+		margin: 5px auto 0px auto;
+	}
+	
+	#search-users, #reports-button-container {
+		width: 100%;
+	}
+}

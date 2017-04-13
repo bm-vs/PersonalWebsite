@@ -1,0 +1,161 @@
+#addproduct-body {
+	padding: 0 15px 0 15px;
+}
+
+h1, #addproduct-content {
+	margin-left: 10px;
+}
+
+#addproduct-content > div {
+	width: 70%;
+	margin: 0 auto 35px auto;
+}
+
+#addproduct-content > div > label {
+	color: #222;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+#addproduct-content > div > label  > span{
+	margin-right: 8px;
+}
+
+#addproduct-content > div > input, #addproduct-content > div > textarea, #addproduct-content > div > select {
+	display: block;
+	width: 100%;
+	padding-left: 12px;
+}
+
+#addproduct-content > div > input {
+	height: 40px;
+}
+
+#addproduct-content > div > textarea {
+	padding-top: 6px;
+}
+
+
+#addproduct-content > div > input, #addproduct-content > div > textarea {
+	border: 1px solid #ddd;
+}
+
+#addproduct-content > div > input:focus, #addproduct-content > div > textarea:focus {
+	border: 2px solid #c49f66 !important;
+	box-shadow: none;
+	outline-style: none;
+}
+
+#color li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+#color li label:first-child{
+	margin-right: 5px;
+}
+
+#color li label:last-child{
+	margin-top: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label[for="image-input"] {
+	display: block;
+}
+
+#addproduct-content button {
+	width: 150px;
+}
+
+#addbutton {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#addproduct-content #name, #addproduct-content #types {
+	max-width: 450px;
+}
+
+#addproduct-content #price, #addproduct-content #qty {
+	max-width: 150px;
+}
+
+#addproduct-content #browse-btn {
+	height: 34px;
+	width: 150px;
+	padding-top: 6px;
+	margin: 0;
+	cursor: pointer;
+	background: #c49f66;
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+}
+
+#addproduct-content #browse-btn:hover {
+	background: #b98d49;
+}
+
+#types > button {
+	color: #222 !important;
+	background: white !important;
+	border: 1px solid #ddd !important;
+	height: 40px;
+}
+
+#types > button:active, #types > button:focus {
+	border: 2px solid #c49f66 !important;
+}
+
+#types .dropdown-menu {
+	width: 150px;
+	margin: 0;
+	box-shadow: none;
+	min-width: 150px;
+	background: #c49f66;
+	border: 2px solid #c49f66;
+	border-top: 0;
+	padding: 0;
+}
+
+#types .dropdown-menu li {
+	cursor: pointer;
+}
+
+#types .dropdown-menu li, #search-order .dropdown-menu li:active, #search-order .dropdown-menu li:focus {
+	background: white;
+}
+
+#search-order .dropdown-menu li {
+	color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
